@@ -25,8 +25,8 @@ export default {
     <main>
         <!-- SEZIONE MOVIES -->
         <section id="card" class="container mb-2">
-            <h2 class="m-0 text-center bg-danger"> {{ store.film }} : {{ store.movieList.length }} </h2>
-            <div class="content-card text-white">
+            <h2 class="m-0 text-center bg-danger"> {{ store.film }} </h2>
+            <div class="content-card text-white mt-2">
                 <div class="row m-0 justify-content-between flex-no-wrap">
                     <CreatedMovies v-for="list in store.movieList" :card="list" />
                 </div>
@@ -35,8 +35,8 @@ export default {
 
         <!-- SEZIONE SERIE TV -->
         <section id="card" class="container">
-            <h2 class="m-0 text-center bg-danger"> {{ store.serieTv }} : {{ store.tvList.length }} </h2>
-            <div class="content-card text-white">
+            <h2 class="m-0 text-center bg-danger"> {{ store.serieTv }} </h2>
+            <div class="content-card text-white mt-2">
                 <div class="row m-0 justify-content-between">
                     <CreatedTvSeries v-for="list in store.tvList" :cardTv="list" />
                 </div>
