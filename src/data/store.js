@@ -23,7 +23,11 @@ const iMieiDati = reactive({
 
     urlImage: "https://image.tmdb.org/t/p/w1280",
 
-    urlImageRandom: "https://image.tmdb.org/t/p/w1280/frDS8A5vIP927KYAxTVVKRIbqZw.jpg"
+    //VARIABILE PER IMG RANDOM PRESA DA PICSUM PER I FILM
+    urlImageRandom: "https://picsum.photos/200/120",
+
+    //VARIABILE PER IMG RANDOM PRESA DA PICSUM PER LE SERIE
+    urlImageRandomPoster: "https://picsum.photos/170/255"
 });
 
 export default iMieiDati;
